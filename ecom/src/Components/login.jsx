@@ -54,7 +54,7 @@ const Login = () => {
 
   return (
     <div className="flex justify-center items-center h-full w-full bg-gradient-to-r from-slate-900 to-slate-700">
-      <div className=" lg:h-3/5 lg:w-1/4 md:h-2/6 md:w-1/4 flex flex-col items-center py-10 rounded-lg border border-white shadow-2xl  ">
+      <div className="w-80 lg:h-96 lg:w-96 md:h-96 md:w-80 flex flex-col items-center py-10 rounded-lg border border-white shadow-2xl  ">
         <form
           className="flex flex-col  items-center space-y-8"
           onSubmit={(e) => {
@@ -66,14 +66,14 @@ const Login = () => {
           </h1>
 
           <input
-            className="border-2 p-2 rounded-md"
+            className="border-b-2 p-2  bg-transparent focus:outline-none focus:caret-white"
             type="email"
             placeholder="abc@gmail.com"
             ref={email}
           />
 
           <input
-            className="border-2 p-2 rounded-md"
+            className="border-b-2 p-2 bg-transparent focus:outline-none focus:caret-white"
             type="password"
             placeholder="***********"
             ref={password}
