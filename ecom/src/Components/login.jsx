@@ -66,7 +66,7 @@ const Login = () => {
           </h1>
 
           <input
-            className="border-b-2 p-2  bg-transparent focus:outline-none focus:caret-white"
+            className="border-b-2 p-2 text-white  bg-transparent focus:outline-none focus:caret-white"
             type="email"
             placeholder="abc@gmail.com"
             ref={email}

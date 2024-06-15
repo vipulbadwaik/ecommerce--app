@@ -3,7 +3,7 @@ import { NotebookPen } from "lucide-react";
 
 const Header = () => {
   return (
-    <div className="lg:w-full h-20 bg-purple-600 flex justify-between text-white lg:items-center fixed">
+    <div className="lg:w-full h-20 bg-purple-600 flex justify-between text-white lg:items-center lg:fixed lg:top-0 lg:left-0">
       {/* <img className="h-20" src="https://static.vecteezy.com/system/resources/previews/020/662/330/non_2x/store-icon-logo-illustration-vector.jpg"></img> */}
       <h1 className="lg:ml-9 font-bold text-2xl  ">ShopaWorld</h1>
       <div className="flex lg:mr-6 lg:space-x-6">
