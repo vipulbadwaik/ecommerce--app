@@ -22,7 +22,7 @@ const Browse = () => {
   return (
     <div className="h-full w-full scroll-smooth">
       <Header />
-      <div className=" bg-black h-16 w-full fixed lg:top-[79px] ">
+      <div className=" h-16 w-full fixed lg:top-[79px] ">
          <option>
           
          </option>
