@@ -1,18 +1,23 @@
 import React from "react";
 import { NotebookPen } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
     <div className="lg:w-full h-20 bg-purple-600 flex justify-between text-white lg:items-center lg:fixed lg:top-0 lg:left-0">
       {/* <img className="h-20" src="https://static.vecteezy.com/system/resources/previews/020/662/330/non_2x/store-icon-logo-illustration-vector.jpg"></img> */}
       <h1 className="lg:ml-9 font-bold text-2xl  ">ShopaWorld</h1>
-      <div className="flex lg:mr-6 lg:space-x-6">
+      <div className="flex lg:mr-6 lg:space-x-6 cursor-pointer">
        
       <h1 className="font-semibold lg:text-lg lg:p-2">Contact</h1>
         
         <h1 className="font-semibold lg:text-lg lg:p-2">About</h1>
         <h1 className="font-semibold lg:text-lg lg:p-2">Profile</h1>
-        <h1 className="font-semibold lg:text-lg lg:p-2">Cart</h1>
+        <h1 className="font-semibold lg:text-lg lg:p-2">
+          <Link to={"/cart"}>
+          Cart
+          </Link>
+          </h1>
       </div>
     </div>
 

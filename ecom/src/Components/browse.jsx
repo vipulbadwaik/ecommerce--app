@@ -28,7 +28,7 @@ const Browse = () => {
          </option>
       </div>
       {fullData ? (
-        <div className="lg:mt-36 grid lg:grid-cols-4 ml-28 gap-y-16 ">
+        <div className="lg:mt-36 grid lg:gap-x-0 lg:grid-cols-5 sm:grid-cols-2 ml-24 gap-y-16 ">
          
           {fullData.map((item) => {
             console.log(item);
